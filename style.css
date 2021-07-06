@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -127,9 +128,11 @@ body{
      width: 100%;
      height: auto;
     display: flex;
+    margin-bottom: 100px;
     background-image: url(images/about-bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    overflow-x: hidden;
 }
 
 .about-left{
@@ -147,6 +150,13 @@ body{
     justify-content: center;
 }
 
+.about-right img{
+    width: 300px;
+    margin-top: -420px;
+    margin-left: 700px;
+    
+}
+
 .about-right h1{
     font-size: 40px;
     margin-bottom: 20px;
@@ -162,7 +172,7 @@ body{
 
 
 .recipie{
-
+    
     display: flex;
     flex-direction: column;
     margin-top: 50px;
@@ -174,10 +184,12 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 50px;
 }
 .top h1{
     color: black;
     font-weight: 900;
+    font-size: 30px;
 }
 .top p{
     width: 600px;
@@ -254,3 +266,78 @@ body{
 
 
 /* achievement section end */
+
+/* contact section */
+
+.contact{
+    display: flex;
+    overflow-x: hidden;
+}
+.contact-left-image{
+    width: 30%;
+}
+.contact-left-image img{
+    width: 80%;
+    
+}
+.contact-right-image{
+    width: 30%;
+}
+.contact-right-image img{
+    width: 60%;
+    margin-top: 100px;
+   margin-left: 300px;
+   
+}
+.contact-form h1{
+    color: black;
+    font-size: 40px;
+    font-weight: bold;
+}
+.contact-form p{
+    margin-bottom: 20px;
+}
+.contact-form{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-form form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form input{
+    width: 400px;
+    border: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+    margin-bottom: 10px;
+    background-color: #e7f1fc;
+    
+}
+.contact-form .textarea{
+    width: 400px;
+    height: 180px;
+    padding-bottom: 200px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    background-color: #e7f1fc;
+}
+.contact-form .contact-link{
+    text-decoration: none;
+    text-align: center;
+    width: 400px;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px;
+    background-color:#74b9ff ;
+}
+
+/* contact section end */
