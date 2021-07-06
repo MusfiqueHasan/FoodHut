@@ -31,7 +31,6 @@ body{
 .logo h4{
     font-size: 25px;
     font-weight:bolder;
-    /* margin-top: 5px; */
 }
 .logo span{
     color: #0984e3;
@@ -70,18 +69,21 @@ body{
     background-color: #ecf5fd;
     /* box-shadow: -1px -1px 5px gray; */
 }
+/* Header section End*/
 
 /* Home section */
 
 .home{
     width: 100%;
+    height: 90vh;
     display: flex;
 
 }
 
 .home-left{
     width: 50%;
-    margin-left: 100px;
+    margin-left: 130px;
+    margin-bottom:100px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -110,14 +112,145 @@ body{
 }
 
 .home-right{
-    width: 50%;    
+    width: 50%;
+    margin-top: 30px;    
 }
 .home-right img{
-    width: 90%;
+    width: 85%;
     
 }
 
+/* Home section End */
+
 /* about section */
 .about{
+     width: 100%;
+     height: auto;
+    display: flex;
     background-image: url(images/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
+.about-left{
+    width: 50%;
+    margin-left: 150px;
+}
+
+
+.about-right{
+    width: 50%;
+    margin-right: 150px;
+    text-align: justify;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+}
+
+.about-right h1{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.about-right p{
+    margin-bottom: 50px;
+}
+
+/* about section End */
+
+/* recipie section */
+
+
+.recipie{
+
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    
+    
+}
+.top{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top h1{
+    color: black;
+    font-weight: 900;
+}
+.top p{
+    width: 600px;
+    text-align: center;
+    margin-top: 20px;
+}
+.bottom{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.bottom .card{
+    width: 25%;
+    height: 70vh;
+    margin: 0px 2%;
+    padding: 20px;
+    text-align: justify;
+    border-radius: 15px;
+    box-shadow: 1px 1px 30px gray;
+}
+.card img{
+     width: 100%;
+     height: 50%;
+     margin-bottom: 30px;
+     border-radius: 15px;
+}
+.card p{
+    margin-bottom: 20px;
+}
+.title{
+    margin-bottom: 15px;
+    color: black;
+}
+
+/* recipie section end */
+
+/*  achievement section  */
+
+.achievement{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.count{
+    width: 70%;
+    height: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 20px;
+    box-shadow: 1px 1px 50px gray;
+}
+
+.counting h1{
+    font-size: 40px;
+   text-align: center;
+   font-weight: bold;
+   color: black;
+}
+.count-left-image{
+    width: 200px;
+    margin-left: -150px;
+}
+.count-right-image{
+    width: 200px;
+    margin-bottom: 100px;
+    margin-right: -120px;
+}
+
+
+/* achievement section end */
