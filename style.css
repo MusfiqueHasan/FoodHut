@@ -233,6 +233,7 @@ body{
 .achievement{
     width: 100%;
     height: 50vh;
+    margin-bottom: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,6 +272,7 @@ body{
 
 .contact{
     display: flex;
+    margin-bottom: 100px;
     overflow-x: hidden;
 }
 .contact-left-image{
@@ -295,7 +297,7 @@ body{
     font-weight: bold;
 }
 .contact-form p{
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .contact-form{
     width: 40%;
@@ -341,3 +343,29 @@ body{
 }
 
 /* contact section end */
+
+/* footer section */
+.footer{
+    width: 100%;
+    height: 40vh;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.footer-top{
+    text-align: center;
+    margin: 100px 0px;
+}
+.footer-top h1{
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Hachi Maru Pop', cursive;
+   
+}
+
+.footer span{
+    color: #0984e3;
+}
+/* footer section end */
